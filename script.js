@@ -60,10 +60,7 @@ function createTimer(totalSeconds) {
             timerElement.appendChild(stopButton);
         }
     }, 1000);
-    // stopButton.addEventListener('click', () => {
-    //     clearInterval(countdownInterval);
-    //     timerElement.remove();
-    // });
+    
     
 }
 
